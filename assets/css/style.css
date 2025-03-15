@@ -46,7 +46,7 @@ main {
     margin-bottom: 20px;
 }
 
-.outfit-h2 {
+.outfit-h1 {
     font-family: 'Outfit', sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -56,6 +56,7 @@ main {
     text-align: center;
     width: 288px;
     padding: 0 16px;
+    font-size: 22px;
 }
 
 .outfit-p {
@@ -83,5 +84,9 @@ main {
 @media (min-width: 1440px) {
     body{
         background: var(--slate300);
+    }
+
+    .container{
+        margin-top: 160px;
     }
 }
